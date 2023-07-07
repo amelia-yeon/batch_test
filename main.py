@@ -15,7 +15,7 @@ import traceback
 
 ENV_PATH = ''
 
-# 초기 로깅 셋팅
+
 errlogger.Logger.fnInitLogger()
 logger = errlogger.Logger("info").logger
 errLogger = errlogger.Logger("error").logger
@@ -36,7 +36,6 @@ try :
     if __name__ == '__main__':
         arguments = sys.argv
         
-        # 환경변수들
         if len(arguments) == 1:
             # TODO .env file load
             ENV_PATH = '.env' 
