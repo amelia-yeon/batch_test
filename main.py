@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from apscheduler.schedulers.blocking import BlockingScheduler
 import sys
 from svc.common import errlogger
